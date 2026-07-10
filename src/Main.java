@@ -1,12 +1,12 @@
-import Exceptions.Excersice;
-import HashAndEquals.Student;
-
-import java.util.HashSet;
+import Generics.Repository;
 
 public class Main {
     public static void main(String[] args) {
-        Excersice primer = new Excersice(10,0);
-        primer.operation(10,0);
+        Repository <String> repo = new Repository<>();
+
+        repo.add("Java");
+        repo.add("Spring");
+        repo.printAll();
 
     }
 }
