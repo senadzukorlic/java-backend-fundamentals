@@ -40,8 +40,6 @@ public class HashSetEx {
         hs.add(new HashSetEx(5));
         hs.add(new HashSetEx(5));
 
-//        hs.remove("D");
-
 //        Iterator<HashSetEx> iterator = hs.iterator();
 //
 //
